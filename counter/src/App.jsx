@@ -14,7 +14,7 @@ function App() {
  }
   const removeValue =()=>{  
   counter=counter-1;
-  console.log("clicked",counter);
+  console.log(" button clicked",counter);
   setCounter(counter)
 } 
 
