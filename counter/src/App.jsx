@@ -23,13 +23,11 @@ function App() {
     <>
     
      <h1> welcome to this page </h1>
-     <h3> counter value:{counter}</h3>
-
+     
      <button onClick={addValue}>add value{counter}</button>
     
      <br/>
      <button onClick={removeValue}>remove value{counter}</button>
-    <p> footer:{counter}</p>
     </>
   )
 }
