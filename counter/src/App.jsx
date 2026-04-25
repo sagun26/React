@@ -8,7 +8,7 @@ function App() {
   let [counter,setCounter]= useState(0)
  const addValue =()=>{
   counter=counter+1;
-  console.log("clicked",counter);
+  console.log("button clicked",counter);
   setCounter(counter)
 
  }
